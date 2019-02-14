@@ -1,0 +1,173 @@
+
+	a{
+	font-family:Comic Sans MS;
+	color:#2F4F4F;
+	font-weight: bold;
+	position: relative;
+}
+ul li
+{
+	padding: 2px;
+	margin-left: 70px;
+}
+.navbar-default
+{
+	background-color: #F0FFFF;
+	position: fixed;
+	z-index: 15;
+	width:100%;
+	top:0;
+	
+}
+.dropdown:hover >.dropdown_menu {
+	display: block;
+
+}
+
+.dropdown_menu {
+    background: #fff;
+    width: 100%;
+    left: 0px;
+    top: 50px;
+    bottom: auto;
+    position: fixed;
+    min-height: 305px;
+    display: none;
+    z-index:10;
+}
+.menu{
+	text-align: initial;
+}
+ .menu_list:nth-child(1) {
+    margin-left: 7vw;
+    width: 400px;
+    margin-right: 0px;
+}
+ .menu_list {
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding-top: 5px;
+    list-style: none;
+}
+.focus-image{
+	display: inline-block;
+    width: 25.7vw;
+    padding-top: 5px;
+    float: right;
+    margin-right:100px;
+
+}
+.menu_list li{
+	color:;
+}
+.wid {
+	height:500px;
+	margin-top:50px;
+
+}
+.sec {
+	width : 250px;
+	height: 570px;
+	overflow-y:scroll;
+	text-align: left;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 20;
+  font-family:Comic Sans MS;
+  font-weight: bold;
+     
+	
+	
+}
+section{
+width:20%;
+float:left;
+margin:2% 2%;
+text-align:center;
+border:1px solid white;
+font-family:Comic Sans MS;
+  font-weight: bold;
+
+
+}
+.first_image :hover>.hov_1
+{
+background-image: url("shop3.jpg");
+}
+.first_image {
+
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+ .hov_1{
+	
+	position: absolute;
+	margin-top: -15px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	
+	display:none;
+}
+.first_image:hover>.hov_1
+{
+display:inline-block;
+}
+.quick {
+	height:10%;
+	width:78%;
+	background: #333333;
+	margin-left: 30px;
+	margin-top: 0;
+	padding-right: 20px;
+
+}
+.quick p a{
+	color : white;
+}
+.mylist li {
+	list-style: none;
+	font-family: Comic Sans MS;
+
+}
+.foot{
+	border:none;
+}
+.foot h4,.foot p {
+		color:white;
+
+	}
+	footer {
+		background: #333333;
+		width: 100%;
+		overflow: hidden;
+		opacity: 0.90;
+		border : none;
+		position: absolute;
+		margin-top: 700px;
+		height : 200px;
+
+
+
+	}
+button {
+ width: 35px;
+ background: #2196F3;
+ height: 35px;
+ cursor: pointer;
+ color: white;
+
+  }
+  .tex{
+  	margin-top: 7px;
+  }
